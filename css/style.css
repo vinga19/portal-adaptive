@@ -1,0 +1,167 @@
+body
+{
+   background-image: url('../img/branca.jpg');
+   background-color: darkgrey;
+   background-repeat: no-repeat; 
+   background-size: cover; 
+   background-position: center center;
+   height: 600px; 
+   
+  
+   
+}
+#img_logo
+{
+  background: url(../img/logo-adaptive.png);
+}
+
+@keyframes bounce{
+  0%,20%, 60%, 100%{
+    -webkit-transform: translate(0);
+    transform: translateY(0);
+    transform: translateX(0);
+  }
+    
+  20%{
+    -webkit-transform: translate(-30px);
+    transform: translateY(-30px);
+    
+  }
+  20%
+  {
+    transform: scale(1.5);
+  }
+
+  
+}
+
+.btn-efeito:hover
+{
+  animation: bounce 1.8s ;
+}
+
+.rounded
+{
+  height: 200px;
+  width: 400px;
+}
+.jumbotron
+{
+  background-color: transparent;
+  color: #176085;
+  text-align: center;
+  position: relative;
+  
+  
+  
+}
+
+.row
+{
+  margin-right: 0px;
+  margin-left: 0px;
+  position: relative;
+  top: 10%;
+}
+
+#btn1
+{
+  background-image: url('../img/universidade3.png');
+  background-position: center center;
+  background-size: cover;
+  background-color: transparent;
+  height: 65px;
+  border-radius: 5ch;
+  margin-bottom: 0px;
+  border: 0;
+  width: 65px;
+  position: relative;
+  top: 60%;
+  right: 5ch;
+  text-align: center;
+
+}
+
+#btn2
+{
+  background-image: url('../img/wiki2.png');
+  background-position: center center;
+  background-size: cover;
+  height: 65px;
+  border-radius: 5ch;
+  margin-bottom: 0px;
+  border: transparent;
+  width: 65px;
+  position: relative;
+  top: 30%;
+  right: 3ch;
+  
+
+}
+#btn3
+{
+  background-image: url('../img/kayako.png');
+  background-position: center center;
+  background-size: cover;
+  height: 65px;
+  border-radius: 5ch;
+  margin-bottom: 3ch;
+  margin-right: 3px;
+  border: transparent;
+  width: 65px;
+  position: relative;
+  top: 20%;
+  
+  
+
+}
+#btn4
+{
+  background-image: url('../img/blog4.png');
+  background-position: center center;
+  background-size: cover;
+  background-color: transparent;
+  height: 65px;
+  border-radius: 5ch;
+  border: transparent;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  width: 65px;
+  position: relative;
+  top: 30%;
+  left: 3ch;
+
+}
+
+#btn5
+{
+  background-image: url('../img/youtube4.png');
+  background-position: center center;
+  background-size: cover;
+  height: 65px;
+  border-radius: 3pc;
+  margin-bottom: 0px;
+  width: 65px;
+  background-color: transparent;
+  border: transparent;
+  position: relative;
+  top: 60%;
+  left: 5ch;
+
+  
+
+}
+
+
+@media screen and (max-width: 1250px){
+  body{
+    height: 680px;
+  }
+}
+@media screen and (max-width: 1000px){
+  body{
+    height: 680px;
+  }
+}
+
+
